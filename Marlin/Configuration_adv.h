@@ -867,6 +867,7 @@
 // Define SOL0_PIN, SOL1_PIN, etc., for each extruder that has a solenoid.
 #define EXT_SOLENOID
 #define SOL0_PIN AUX1_06_PIN
+#define INVERT_SOL0_PIN true
 
 // @section homing
 

@@ -31,7 +31,7 @@
 
 // Used primarily with MANUAL_SOLENOID_CONTROL
 static void set_solenoid(const uint8_t num, const uint8_t state) {
-  #define _SOL_CASE(N) case N: TERN_(HAS_SOLENOID_##N, OUT_WRITE(SOL##N##_PIN, state)); break;
+  #define _SOL_CASE(N) case N: TERN_(HAS_SOLENOID_##N, OUT_WRITE(SOL##N##_PIN, state ^ INVERT_SOL##N##_PIN )); break;
   switch (num) {
     REPEAT(8, _SOL_CASE)
     default: SERIAL_ECHO_MSG(STR_INVALID_SOLENOID); break;
