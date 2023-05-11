@@ -172,4 +172,4 @@ __pycache__
 # IOLogger logs
 *_log.csv
 Marlin-pneumatic.code-workspace
-.vscode/extensions.json
+.vscode/
