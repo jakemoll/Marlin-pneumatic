@@ -33,7 +33,7 @@
 #include "types.h"
 #include "MarlinConfig.h"
 
-//#define DEBUG_GCODE_PARSER
+#define DEBUG_GCODE_PARSER
 #if ENABLED(DEBUG_GCODE_PARSER)
   #include "hex_print_routines.h"
   #include "serial.h"
