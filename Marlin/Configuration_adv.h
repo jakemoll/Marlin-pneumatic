@@ -865,7 +865,8 @@
 
 // Activate a solenoid on the active extruder with M380. Disable all with M381.
 // Define SOL0_PIN, SOL1_PIN, etc., for each extruder that has a solenoid.
-//#define EXT_SOLENOID
+#define EXT_SOLENOID
+#define SOL0_PIN AUX1_08_PIN
 
 // @section homing
 
