@@ -866,7 +866,7 @@
 // Activate a solenoid on the active extruder with M380. Disable all with M381.
 // Define SOL0_PIN, SOL1_PIN, etc., for each extruder that has a solenoid.
 #define EXT_SOLENOID
-#define SOL0_PIN AUX1_08_PIN
+#define SOL0_PIN AUX1_06_PIN
 
 // @section homing
 
@@ -4219,7 +4219,7 @@
 //
 // M43 - display pin status, toggle pins, watch pins, watch endstops & toggle LED, test servo probe
 //
-//#define PINS_DEBUGGING
+#define PINS_DEBUGGING
 
 // Enable Tests that will run at startup and produce a report
 //#define MARLIN_TEST_BUILD
