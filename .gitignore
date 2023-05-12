@@ -173,3 +173,4 @@ __pycache__
 *_log.csv
 Marlin-pneumatic.code-workspace
 .vscode/
+.vscode/extensions.json
